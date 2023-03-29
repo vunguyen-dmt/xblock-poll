@@ -225,9 +225,9 @@ th.survey-answer {
     padding-bottom: .25em;
 }
 
-.poll-header {
+/* .poll-header {
     text-transform: uppercase;
-}
+} */
 
 .survey-percentage {
     font-weight: bolder;
