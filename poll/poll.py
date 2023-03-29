@@ -786,7 +786,7 @@ class PollBlock(PollBase, CSVExportMixin):
         return u"poll-data-export-{}.csv".format(time.strftime("%Y-%m-%d-%H%M%S", time.gmtime(time.time())))
 
     def prepare_data(self):
-        header_row = ['user_id', 'username', 'full_name' 'user_email', 'question', 'answer']
+        header_row = ['user_id', 'username', 'full_name', 'user_email', 'question', 'answer']
         data = {}
         answers_dict = dict(self.answers)
         for sm in self.student_module_queryset():
@@ -795,7 +795,7 @@ class PollBlock(PollBase, CSVExportMixin):
                 data[sm.student.id] = [
                     sm.student.id,
                     sm.student.username,
-                    repr(sm.student),
+                    sm.student.profile.name,
                     sm.student.email,
                     self.question,
                     answers_dict[choice]['label'],
