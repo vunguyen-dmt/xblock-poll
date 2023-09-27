@@ -1,0 +1,80 @@
+# 
+# Translators:
+# Vu Bach, 2019
+# 
+msgid ""
+msgstr ""
+"Last-Translator: Vu Bach, 2019\n"
+"Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/6205/vi/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: poll/public/handlebars/poll_studio.handlebars:6
+msgid "move poll up"
+msgstr "di chuyển cuộc thăm dò lên"
+
+#: poll/public/handlebars/poll_studio.handlebars:7
+msgid "move poll down"
+msgstr "di chuyển cuộc thăm dò xuống"
+
+#: poll/public/handlebars/poll_studio.handlebars:9
+msgid "Delete"
+msgstr "Xóa"
+
+#: poll/public/handlebars/poll_studio.handlebars:11
+msgid "Answer"
+msgstr "Đáp Án"
+
+#: poll/public/handlebars/poll_studio.handlebars:12
+msgid "Question"
+msgstr "Câu hỏi"
+
+#: poll/public/handlebars/poll_studio.handlebars:16
+msgid "Image URL"
+msgstr "URL hình ảnh"
+
+#: poll/public/handlebars/poll_studio.handlebars:18
+msgid "Image alternative text"
+msgstr "Văn bản thay thế hình ảnh"
+
+#: poll/public/handlebars/poll_studio.handlebars:23
+msgid ""
+"You can make limited use of Markdown in answer texts, preferably only bold "
+"and italics."
+msgstr ""
+"Bạn có thể hạn chế sử dụng Markdown trong văn bản trả lời, tốt nhất chỉ in đậm "
+"và in nghiêng."
+
+#: poll/public/handlebars/poll_studio.handlebars:27
+msgid ""
+"This must have an image URL or text, and can have both.  If you add an "
+"image, you must also provide an alternative text that describes the image in"
+" a way that would allow someone to answer the poll if the image did not "
+"load."
+msgstr ""
+"Điều này phải có URL hình ảnh hoặc văn bản và có thể có cả hai. Nếu bạn thêm "
+"hình ảnh, bạn cũng phải cung cấp văn bản thay thế mô tả hình ảnh theo"
+" cách cho phép ai đó trả lời cuộc thăm dò nếu hình ảnh không "
+"tải."
+
+#: poll/public/handlebars/poll_results.handlebars:5
+#: poll/public/handlebars/survey_results.handlebars:4
+msgid "Results"
+msgstr "Kết quả "
+
+#: poll/public/handlebars/poll_results.handlebars:31
+#: poll/public/handlebars/survey_results.handlebars:39
+msgid "Submit"
+msgstr "Gửi"
+
+#: poll/public/handlebars/poll_results.handlebars:33
+#: poll/public/handlebars/survey_results.handlebars:41
+msgid "Results gathered from {total} respondent."
+msgid_plural "Results gathered from {total} respondents."
+msgstr[0] "Kết quả được thu thập từ {total} người trả lời."
+
+#: poll/public/handlebars/poll_results.handlebars:37
+#: poll/public/handlebars/survey_results.handlebars:46
+msgid "Feedback"
+msgstr "Phản hồi"

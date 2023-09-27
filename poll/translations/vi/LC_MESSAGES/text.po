@@ -1,0 +1,408 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: XBlocks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-09 11:57+0000\n"
+"PO-Revision-Date: 2016-06-08 14:35+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Vietnamese (http://app.transifex.com/open-edx/xblocks/language/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: poll/poll.py:232
+msgid "Whether or not to display results to the user."
+msgstr "Hiển thị hoặc không hiển thị kết quả cho người dùng."
+
+#: poll/poll.py:233
+msgid "The maximum number of times a user may send a submission."
+msgstr "Số lần tối đa người dùng có thể gửi bài."
+
+#: poll/poll.py:235
+msgid "Number of times the user has sent a submission."
+msgstr "Số lần người dùng đã gửi bài."
+
+#: poll/poll.py:237
+msgid "Text to display after the user votes."
+msgstr "Văn bản hiển thị sau khi người dùng bình chọn."
+
+#. Translators: {field} is either "answers" or "questions".
+#: poll/poll.py:298
+#, python-brace-format
+msgid "'{field}' is not present, or not a JSON array."
+msgstr "'{field}' không xuất hiện hoặc không phải là mảng JSON."
+
+#. Translators: {noun} is either "Answer" or "Question". {item} identifies the
+#. answer or question.
+#: poll/poll.py:310
+#, python-brace-format
+msgid "{noun} {item} not a javascript object!"
+msgstr "{noun} {item} không phải là đối tượng javascript!"
+
+#. Translators: {noun} is either "Answer" or "Question". {item} identifies the
+#. answer or question.
+#: poll/poll.py:319
+#, python-brace-format
+msgid "{noun} {item} contains no key."
+msgstr "{noun} {item} không chứa khóa."
+
+#. Translators: {noun} is either "Answer" or "Question".
+#. {noun_lower} is the lowercase version of {noun}.
+#: poll/poll.py:331
+#, python-brace-format
+msgid ""
+"{noun} has no text or img. Please make sure all {noun_lower}s have one or "
+"the other, or both."
+msgstr ""
+"{noun} không có văn bản hoặc hình ảnh. Vui lòng đảm bảo rằng tất cả các {noun_lower} đều có cái này hoặc "
+"cái kia, hoặc cả hai."
+
+#. Translators: {noun} is either "Answer" or "Question".
+#. {noun_lower} is the lowercase version of {noun}.
+#: poll/poll.py:342
+#, python-brace-format
+msgid ""
+"{noun} was added with no label. All {noun_lower}s must have labels. Please "
+"check the form. Check the form and explicitly delete {noun_lower}s if not "
+"needed."
+msgstr ""
+"{noun} đã được thêm mà không có nhãn. Tất cả các {noun_lower} đều phải có nhãn. Vui lòng "
+"kiểm tra biểu mẫu. Kiểm tra biểu mẫu và xóa các {noun_lower} nếu không "
+"cần thiết."
+
+#: poll/poll.py:350
+msgid ""
+"All images must have an alternative text describing the image in a way that "
+"would allow someone to answer the poll if the image did not load."
+msgstr ""
+"Tất cả hình ảnh phải có văn bản mô tả thay thế hình ảnh theo "
+"cách cho phép ai đó trả lời cuộc thăm dò nếu hình ảnh không tải."
+
+#. Translators: "{noun_lower} is either "answer" or "question".
+#: poll/poll.py:362
+#, python-brace-format
+msgid "You must include at least one {noun_lower}."
+msgstr "Bạn phải bao gồm ít nhất một {noun_lower}."
+
+#: poll/poll.py:410
+msgid "Maximum Submissions missing or not an integer."
+msgstr "Số lần gửi tối đa bị thiếu hoặc không phải là số nguyên."
+
+#: poll/poll.py:415
+msgid "Private results may not be False when Maximum Submissions is not 1."
+msgstr "Kết quả cá nhân không được sai khi Số lần gửi tối đa không phải là 1."
+
+#: poll/poll.py:452 poll/poll.py:887
+msgid "Poll"
+msgstr "Thăm dò ý kiến"
+
+#: poll/poll.py:453
+msgid "What is your favorite color?"
+msgstr "Màu sắc ưa thích của bạn là gì?"
+
+#: poll/poll.py:458
+msgid "Red"
+msgstr "Màu đỏ"
+
+#: poll/poll.py:459
+msgid "Blue"
+msgstr "Màu xanh dương"
+
+#: poll/poll.py:460
+msgid "Green"
+msgstr "Màu xanh lá"
+
+#: poll/poll.py:461
+msgid "Other"
+msgstr "Khác"
+
+#: poll/poll.py:463
+msgid "The answer options on this poll."
+msgstr "Các lựa chọn trả lời trong cuộc thăm dò này."
+
+#: poll/poll.py:467 poll/poll.py:913
+msgid "Total tally of answers from students."
+msgstr "Tổng số câu trả lời của học viên."
+
+#: poll/poll.py:468
+msgid "The student's answer"
+msgstr "Câu trả lời của học viên"
+
+#: poll/poll.py:683 poll/poll.py:1200
+msgid "You have already voted in this poll."
+msgstr "Bạn đã bỏ phiếu trong cuộc thăm dò này."
+
+#: poll/poll.py:688
+msgid "Answer not included with request."
+msgstr "Câu trả lời không kèm theo yêu cầu."
+
+#. Translators: {choice} uniquely identifies a specific answer belonging to a
+#. poll or survey.
+#: poll/poll.py:697
+#, python-brace-format
+msgid "No key \"{choice}\" in answers table."
+msgstr "Không có khóa \"{choice}\" trong bảng câu trả lời."
+
+#: poll/poll.py:706 poll/poll.py:1208
+msgid "You have already voted as many times as you are allowed."
+msgstr "Bạn đã bỏ phiếu nhiều lần nhất có thể"
+
+#: poll/poll.py:736
+msgid "You must specify a question."
+msgstr "Bạn phải chỉ định một câu hỏi."
+
+#: poll/poll.py:739 poll/poll.py:836 poll/poll.py:1262 poll/poll.py:1390
+msgid "Answer"
+msgstr "Đáp Án "
+
+#: poll/poll.py:835 poll/poll.py:1263 poll/poll.py:1389
+msgid "Question"
+msgstr "Câu hỏi"
+
+#: poll/poll.py:838 poll/poll.py:1391
+msgid "Submissions count"
+msgstr "Số lần gửi"
+
+#: poll/poll.py:884
+msgid "Survey"
+msgstr "Khảo sát"
+
+#: poll/poll.py:890
+msgid "Yes"
+msgstr "Đúng"
+
+#: poll/poll.py:891
+msgid "No"
+msgstr "Không"
+
+#: poll/poll.py:892
+msgid "Maybe"
+msgstr "Có thể"
+
+#: poll/poll.py:894
+msgid "Answer choices for this Survey"
+msgstr "Các lựa chọn trả lời cho Khảo sát này"
+
+#: poll/poll.py:898
+msgid "Are you enjoying the course?"
+msgstr "Bạn có thích khóa học không?"
+
+#: poll/poll.py:900
+msgid "Would you recommend this course to your friends?"
+msgstr "Bạn có muốn giới thiệu khóa học này cho bạn bè của mình không"
+
+#: poll/poll.py:904
+msgid "Do you think you will learn a lot?"
+msgstr "Bạn có nghĩ mình sẽ học được nhiều không?"
+
+#: poll/poll.py:906
+msgid "Questions for this Survey"
+msgstr "Câu hỏi cho khảo sát này"
+
+#: poll/poll.py:915
+msgid "The user's answers"
+msgstr "Câu trả lời của người dùng"
+
+#: poll/poll.py:1216
+msgid ""
+"Not all questions were included, or unknown questions were included. Try "
+"refreshing and trying again."
+msgstr ""
+"Không phải tất cả các câu hỏi đều được đưa vào, hoặc các câu hỏi chưa biết đều được đưa vào. Hãy "
+"thử làm mới và thử lại."
+
+#. Translators: {answer_key} uniquely identifies a specific answer belonging
+#. to a poll or survey.
+#. {question_key} uniquely identifies a specific question belonging to a poll
+#. or survey.
+#: poll/poll.py:1229
+#, python-brace-format
+msgid "Found unknown answer '{answer_key}' for question key '{question_key}'"
+msgstr "Đã tìm thấy câu trả lời không xác định '{answer_key}' cho khóa câu hỏi '{question_key}'"
+
+#: poll/public/html/poll.html:35 poll/public/html/survey.html:53
+msgid "Submit"
+msgstr "Gửi"
+
+#: poll/public/html/poll.html:40 poll/public/html/survey.html:55
+msgid "Thank you."
+msgstr "Cảm ơn"
+
+#: poll/public/html/poll.html:44
+#, python-format
+msgid ""
+"\n"
+"        You have used %(submissions_count_s)s out of %(max_submissions_s)s submissions.\n"
+"      "
+msgstr ""
+"\n"
+"        Bạn đã sử dụng %(submissions_count_s)s trong số %(max_submissions_s)s bài nộp.\n"
+"      "
+
+#: poll/public/html/poll.html:52 poll/public/html/poll_edit.html:27
+#: poll/public/html/survey.html:64
+msgid "Feedback"
+msgstr "Phản hồi"
+
+#: poll/public/html/poll.html:64 poll/public/html/survey.html:73
+msgid "View results"
+msgstr "Xem kết quả"
+
+#: poll/public/html/poll.html:71 poll/public/html/survey.html:81
+msgid "Export results to CSV"
+msgstr "Xuất kết quả sang CSV"
+
+#: poll/public/html/poll.html:72 poll/public/html/survey.html:82
+msgid "Download CSV"
+msgstr "Tải xuống CSV"
+
+#: poll/public/html/poll.html:76 poll/public/html/survey.html:86
+msgid "Student data and results CSV available for download in the LMS."
+msgstr "Dữ liệu học viên và kết quả CSV có sẵn để tải xuống trong LMS."
+
+#: poll/public/html/poll_edit.html:8
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#: poll/public/html/poll_edit.html:15
+msgid "Question/Prompt"
+msgstr "Câu hỏi/Nhắc nhở"
+
+#: poll/public/html/poll_edit.html:16
+#, python-format
+msgid ""
+"\n"
+"                    %(link_start)sMarkdown Syntax%(link_end)s is supported.\n"
+"                "
+msgstr ""
+"\n"
+"                    %(link_start)sCú pháp Markdown%(link_end)s được hỗ trợ.\n"
+"                "
+
+#: poll/public/html/poll_edit.html:23
+msgid "Enter the prompt for the user."
+msgstr "Nhập lời nhắc cho người dùng"
+
+#: poll/public/html/poll_edit.html:28
+#, python-format
+msgid ""
+"\n"
+"                %(link_start)sMarkdown Syntax%(link_end)s is supported.\n"
+"            "
+msgstr ""
+"\n"
+"                %(link_start)sCú pháp Markdown%(link_end)s được hỗ trợ.\n"
+"            "
+
+#: poll/public/html/poll_edit.html:36
+msgid ""
+"\n"
+"                    This text will be displayed for the user as some extra feedback after they have\n"
+"                    submitted their response to the poll.\n"
+"                "
+msgstr ""
+"\n"
+"                    Văn bản này sẽ được hiển thị cho người dùng dưới dạng một số phản hồi bổ sung sau khi họ\n"
+"                    gửi phản hồi cho cuộc thăm dò ý kiến.\n"
+"                "
+
+#: poll/public/html/poll_edit.html:44
+msgid "Private Results"
+msgstr "Kết quả cá nhân"
+
+#: poll/public/html/poll_edit.html:48
+msgid "True"
+msgstr "Đúng"
+
+#: poll/public/html/poll_edit.html:49
+msgid "False"
+msgstr "Sai"
+
+#: poll/public/html/poll_edit.html:53
+msgid "If this is set to True, don't display results of the poll to the user."
+msgstr "Nếu điều này được đặt thành Đúng, không hiển thị kết quả cuộc thăm dò cho người dùng."
+
+#: poll/public/html/poll_edit.html:58
+msgid "Maximum Submissions"
+msgstr "Số lần gửi tối đa"
+
+#: poll/public/html/poll_edit.html:63
+#, python-format
+msgid ""
+"\n"
+"                    Maximum number of times a user may submit a poll. %(bold_start)sSetting this to a value other than 1 will imply that\n"
+"                    'Private Results' should be true.%(bold_end)s Setting it to 0 will allow infinite resubmissions.\n"
+"                "
+msgstr ""
+"\n"
+"                    Số lần tối đa người dùng có thể gửi cuộc thăm dò ý kiến. %(bold_end)sViệc đặt giá trị này thành giá trị khác 1 sẽ ngụ ý rằng"
+"                    'Kết quả cá nhân' phải đúng.%(bold_end)s Đặt giá trị này thành 0 sẽ cho phép gửi lại vô số lần.\n"
+"                "
+
+#: poll/public/html/poll_edit.html:71
+msgid "Notes:"
+msgstr "Ghi chú:"
+
+#: poll/public/html/poll_edit.html:72
+msgid ""
+"\n"
+"                    If you change an answer's text, all students who voted for that choice will have their votes updated to\n"
+"                    the new text. You'll want to avoid changing an answer from something like 'True' to 'False', accordingly.\n"
+"                    If you delete an answer, any votes for that answer will also be deleted. Students whose choices are deleted\n"
+"                    may vote again, but will not lose course progress.\n"
+"                "
+msgstr ""
+"\n"
+"                    Nếu bạn thay đổi văn bản của câu trả lời, tất cả học viên đã bình chọn cho lựa chọn đó sẽ được cập nhật phiếu bầu của họ\n"
+"                    thành văn bản mới. Vì vậy, bạn nên tránh thay đổi câu trả lời từ 'Đúng' thành 'Sai'.\n"
+"                    Nếu bạn xóa một câu trả lời, mọi phiếu bầu cho câu trả lời đó cũng sẽ bị xóa. Những học viên có lựa chọn bị xóa\n"
+"                    có thể bỏ phiếu lại, nhưng sẽ không mất tiến độ khóa học.\n"
+"                "
+
+#: poll/public/html/poll_edit.html:81
+msgid ""
+"\n"
+"                        Questions must be similarly cared for. If a question's text is changed, any votes for that question will remain.\n"
+"                        If a question is deleted, any student who previously took the survey will be permitted to retake it, but will not\n"
+"                        lose course progress.\n"
+"                    "
+msgstr ""
+"\n"
+"                        Các câu hỏi cũng phải được quan tâm tương tự. Nếu nội dung của câu hỏi bị thay đổi thì mọi phiếu bầu cho câu hỏi đó sẽ vẫn giữ nguyên.\n"
+"                        Nếu một câu hỏi bị xóa, bất kỳ học sinh nào đã tham gia cuộc khảo sát trước đó sẽ được phép thực hiện lại câu hỏi đó nhưng sẽ không\n"
+"                        mất tiến độ khóa học.\n"
+"                    "
+
+#: poll/public/html/poll_edit.html:97
+msgid "Add Answer"
+msgstr "Thêm câu trả lời"
+
+#: poll/public/html/poll_edit.html:101
+msgid "Add Question"
+msgstr "Thêm câu hỏi"
+
+#: poll/public/html/poll_edit.html:105
+msgid "Save"
+msgstr "Lưu"
+
+#: poll/public/html/poll_edit.html:108
+msgid "Cancel"
+msgstr "Hủy bỏ "
+
+#: poll/public/html/survey.html:57
+#, python-format
+msgid ""
+"\n"
+"                You have used %(submissions_count_s)s out of %(max_submissions_s)s submissions.\n"
+"            "
+msgstr ""
+"\n"
+"                Bạn đã sử dụng %(submissions_count_s)s trong tổng số %(max_submissions_s)s bài gửi.\n"
+"            "
